@@ -1,0 +1,60 @@
+/* habitat homepage - by Priyesh Patel, 2012 */
+
+#excerpt {
+    text-align: justify;
+}
+
+header {
+    min-height: 200px;
+    line-height: 200px;
+}
+
+header h1 {
+    float: none;
+    height: 200px;
+    text-align: center;
+}
+
+.apps a {
+    text-decoration: none;
+}
+
+.apps p {
+    margin-bottom: 10px;
+}
+
+.app {
+    text-align: center; 
+    background: #fcfcfc;
+    border: 1px solid #eee;
+    margin: 10px;
+    padding: 15px 25px;
+    min-height: 100px; 
+    height: 100px;
+    display: block;
+}
+
+.app:hover {
+    background: #f1f1f1;
+}
+
+.app-title, .app-desc {
+    display: block;
+}
+
+.app-title {
+    color: #00a3d3;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.app-desc {
+    color: #666;
+    font-size: 13px;
+}
+
+.footer-link, .footer-link a {
+    color: #888;
+    text-align: center;
+    font-size: 12px;
+}

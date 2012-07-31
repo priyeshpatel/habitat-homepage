@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<!-- habitat: homepage -->
+<!-- http://habitat.habhub.org -->
+<!-- (C) Copyright 2012; GNU GPL 3-->
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <title>habitat</title>
+    <meta name="description" content="the next generation high altitude balloon tracking system by UKHAS"/>
+    <meta name="author" content="Priyesh Patel"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <link rel="stylesheet" type="text/css" href="t/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="t/css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="t/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/habitat.css" />
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="t/images/favicon.ico" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="sixteen columns">
+                <h1 class="no-margin">
+                    <a href="http://habitat.habhub.org/" alt="habitat">
+                        <img src="images/habitat_logo.jpg" alt="habitat" title="habitat"/>
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <div id="grey-section">
+        <div class="container">
+            <div class="ten columns offset-by-three">
+                <p class="remove-bottom" id="excerpt">
+                    habitat is a system for uploading, processing, storing and
+                    displaying telemetry and related information transmitted
+                    from high altitude balloons. The back end is written in
+                    Python and is responsible for parsing incoming data and
+                    storing it in the database, while the frontend is written
+                    independently in JavaScript and HTML and communicates with
+                    CouchDB directly to obtain data and display it.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container apps">
+        <div class="sixteen columns">
+            <p class="one-third column alpha">
+                <a href="https://github.com/ukhas/habitat" class="app">
+                    <span class="app-title">github</span>
+                    <span class="app-desc">
+                        Browse habitat's source on github!
+                    </span>
+                </a>
+            </p> 
+            <p class="one-third column alpha">
+                <a href="http://habitat.readthedocs.org/" class="app">
+                    <span class="app-title">docs</span>
+                    <span class="app-desc">
+                        Documentation covering habitat and its source code.
+                    </span>
+                </a>
+            </p>
+            <p class="one-third column alpha">
+                <a href="http://habitat.habhub.org/genpayload/" class="app">
+                    <span class="app-title">genpayload</span>
+                    <span class="app-desc">
+                        Generate and save payload configuration and flight
+                        documents for habitat.
+                    </span>
+                </a>
+            </p>
+        </div>
+        <div class="sixteen columns">
+            <p class="one-third column alpha">
+                <a href="http://habitat.habhub.org/logtail/" class="app">
+                    <span class="app-title">parser logtail</span>
+                    <span class="app-desc">
+                        A javascript logtailer to view the habitat parser's
+                        logs.
+                    </span>
+                </a>
+            </p>
+            <p class="one-third column alpha">
+                <a href="http://habitat.habhub.org/stats/" class="app">
+                    <span class="app-title">payload telemetry stats</span>
+                    <span class="app-desc">
+                        Simple habitat payload telemetry statistics and graphs
+                        - because we can.
+                    </span>
+                </a>
+            </p>
+            <p class="one-third column alpha">
+                <a href="http://habitat.habhub.org/calendar" class="app">
+                    <span class="app-title">calendar</span>
+                    <span class="app-desc">
+                        An iCalendar feed of upcoming launches.
+                    </span>
+                </a>
+            </p>
+        </div>
+        <div class="sixteen columns">
+            <p class="one-third column alpha">
+                <a href="http://habitat.habhub.org/ept/" class="app">
+                    <span class="app-title">export payload telemetry</span>
+                    <span class="app-desc">
+                        Export the raw sentences transmitted by a given
+                        payload.
+                    </span>
+                </a>
+            </p>
+            <p class="one-third column alpha">
+                <a href="http://habitat.habhub.org/jse/" class="app">
+                    <span class="app-title">jsonschema explorer</span>
+                    <span class="app-desc">
+                        Visualise habitat's document schemas.
+                    </span>
+                </a>
+            </p>
+            <p class="one-third column alpha">
+                <a href="http://habitat.habhub.org/testing-web/habitat/demo.html" class="app">
+                    <span class="app-title">habitat demos</span>
+                    <span class="app-desc">
+                        Experiments for new apps using habitat.
+                    </span>
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="sixteen columns footer-link">
+            <a href="http://habhub.org" alt="habhub">habhub.org</a>
+        </p>
+    </div>
+</body>
+</html>
