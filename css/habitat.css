@@ -13,6 +13,14 @@ header h1 {
     float: none;
     height: 200px;
     text-align: center;
+    text-indent: -99999px;
+    background: url('../images/habitat_logo.png') no-repeat center;
+}
+
+@media only screen and (max-width: 767px) {
+    header h1 {
+        background: url('../images/habitat_logo_small.png') no-repeat center;
+    }
 }
 
 .apps a {
